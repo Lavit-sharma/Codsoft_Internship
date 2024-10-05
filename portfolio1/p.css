@@ -1,0 +1,119 @@
+#body{
+    background-color: black;
+}
+.name{
+    margin-top: 120px;
+    margin-left: 150px;
+    color: white;
+    font-size: 100px;
+}
+.name1{
+    margin-left: 150px;
+    color: white;
+}
+.nav{
+    padding-left: 100px;
+    
+}
+.navbar-nav{
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+.nav-item {
+    list-style: none;
+    margin: 0 15px;
+}
+#img{
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    width:195px;
+    height:245px;
+}
+
+.card-group{
+    margin-top: 50px;
+}
+.card{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#contact{
+    margin-left: 250px;
+}
+.card-body{
+    margin-left: 100px;
+}
+.card:hover{
+ 
+  color: blue;
+}
+
+#changingName {
+  font-size: 3rem;
+  color: #333;
+  animation: colorChange 3s infinite;
+}
+
+@keyframes colorChange {
+  0% { color: #333; }
+  25% { color: #f39c12; }
+  50% { color: #e74c3c; }
+  75% { color: #9b59b6; }
+  100% { color: #333; }
+}
+.progress{
+    margin-top: 30px;
+}
+.service,.project{
+     display: flex;
+     flex-direction:row;
+     justify-content: space-evenly;
+     margin-top: 100px;
+}
+.inner{
+    width: 250px;
+    height: 250px;
+    background-color:white;
+    
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25PX;
+    -webkit-box-shadow: 10px 10px 101px -6px rgba(250,250,250,1);
+-moz-box-shadow: 10px 10px 101px -6px rgba(250,250,250,1);
+box-shadow: 10px 10px 101px -6px rgba(250,250,250,1);
+}
+.inner:hover{
+    width: 300px;
+    height: 300px;
+    transform: rotateY(180);
+}
+.inner1:hover{
+    width: 300px;
+    height: 300px;
+    transform: rotateY(180);
+}
+.inner1{
+height: 250px;
+width: 250px;
+background-color: rgb(255, 255, 255);
+color:BLACK;
+font-size: 30px;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+-webkit-box-shadow: 10px 10px 101px -6px rgba(250,250,250,1);
+-moz-box-shadow: 10px 10px 101px -6px rgba(250,250,250,1);
+box-shadow: 10px 10px 101px -6px rgba(250,250,250,1);
+}
+
